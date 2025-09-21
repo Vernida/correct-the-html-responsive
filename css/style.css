@@ -181,4 +181,11 @@ hr {
 		border-radius: 0.6rem;
 		margin: 0;
 	}
+
+	section.module > .container {
+		display: flex;
+		flex-direction: row;
+		gap: 1.5rem;
+		align-items: flex-start;
+	}
 }
